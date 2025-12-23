@@ -56,8 +56,7 @@ CS2 Server Blocker 是一個 Windows 桌面應用程式，專為 Counter-Strike 
 #### 方式 1：下載 Release 版本（推薦）
 
 1. 前往 [Releases](../../releases) 頁面
-2. 下載最新版本的 `CS2CNBlocker-Portable.zip`
-3. 解壓縮到任意資料夾
+2. 下載最新版本的 `CS2CNBlocker.exe`
 4. **以管理員身分執行** `CS2CNBlocker.exe`
 
 #### 方式 2：從原始碼編譯
@@ -219,13 +218,6 @@ msbuild CS2CNBlocker.sln /p:Configuration=Release
 
 歡迎提交 Issue 和 Pull Request！
 
-### 開發指南
-
-1. Fork 本專案
-2. 建立功能分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
-4. 推送到分支 (`git push origin feature/AmazingFeature`)
-5. 開啟 Pull Request
 
 ## 📄 授權
 
