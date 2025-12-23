@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Weavers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="FodyWeavers.xsd">
+  <Costura>
+    <!-- 嵌入所有依賴的 DLL -->
+    <IncludeAssemblies>
+      Microsoft.Bcl.AsyncInterfaces
+      System.Buffers
+      System.IO.Pipelines
+      System.Memory
+      System.Numerics.Vectors
+      System.Runtime.CompilerServices.Unsafe
+      System.Text.Encodings.Web
+      System.Text.Json
+      System.Threading.Tasks.Extensions
+    </IncludeAssemblies>
+    
+    <!-- 不嵌入這些 DLL（系統 DLL） -->
+    <Unmanaged32Assemblies />
+    <Unmanaged64Assemblies />
+    
+    <!-- 移除嵌入的 DLL 資源 -->
+    <CreateTemporaryAssemblies>false</CreateTemporaryAssemblies>
+  </Costura>
+</Weavers>
